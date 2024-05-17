@@ -230,6 +230,11 @@ footer {
     margin-bottom: 15px;
 }
 
+#my-addition a {
+    color: #e67e22;
+    font-weight: bold;
+}
+
 /* Personal Info */
 
 .personal-info-item {
