@@ -394,7 +394,7 @@ button[type=submit] {
 
 .scrollable-div {
     width: 100%;         
-    height: 400px;        
+    height: 390px;        
     overflow: auto; /* scroll bar when content overflows */
 } 
 
