@@ -19,7 +19,7 @@
 }
 
 .bg-color-contact {
-    background-color: #ffffff;
+    background-color: #f0f0f0;
 }
 
 .ui-menu-color-home {
@@ -364,8 +364,16 @@ footer {
 button[type=submit] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #fafafa;
+    color: #f0f0f0;
     background-color: #0077B6;
+}
+
+button[type=submit]:hover {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+    background-color: #03045E;
+    
 }
 
 /* Media Queries */
@@ -382,7 +390,7 @@ button[type=submit] {
 /* Custom Scrollbar */   
 
 ::-webkit-scrollbar {
-    width: 1.5em;
+    width: 1em;
 }
 
 ::-webkit-scrollbar-track {
@@ -414,7 +422,7 @@ button[type=submit] {
     margin-block: .5em;
 }
 
-::-webkit-scrollbar-track {
+.scrollable-div::-webkit-scrollbar-track {
     background-color: #CAF0F8;
     border-radius: 100vw;
     margin-block: .5em;
