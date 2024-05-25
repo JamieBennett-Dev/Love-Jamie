@@ -391,7 +391,7 @@ button[type=submit]:hover {
 /* Custom Scrollbar */   
 
 ::-webkit-scrollbar {
-    width: 1em;
+    width: 0.5em;
 }
 
 ::-webkit-scrollbar-track {
@@ -400,6 +400,7 @@ button[type=submit]:hover {
 
 ::-webkit-scrollbar-thumb {
     background: #48CAE4;
+    border-radius: 100vw;
 }
 
 ::-webkit-scrollbar-thumb:hover {
