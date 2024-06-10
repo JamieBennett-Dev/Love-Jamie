@@ -299,6 +299,10 @@ footer {
     margin: 40px 20px;
 }
 
+#bootstrap-bar {
+    background-color: rgba(46,139,87, 0.9) !important;
+}
+
 /* Work History */
 
 .history-heading {
