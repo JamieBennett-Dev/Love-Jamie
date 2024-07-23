@@ -181,14 +181,15 @@ footer {
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .cv-pdf i:hover {
     color: #0077B6;
+    transform: scale(1.1);
 }
 
 .social-links {
@@ -205,14 +206,15 @@ footer {
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .social-links li a i:hover {
     background: #0077B6;
+    transform: scale(1.1);
 }
 
 #footer-details {
@@ -224,6 +226,12 @@ footer {
 .three-reasons-icon {
     font-size: 26px;
     color: #0077B6;
+    transition: all 0.2s ease;
+}
+
+.three-reasons-icon:hover {
+    color: #0096C7;
+    transform: scale(1.1);
 }
 
 .three-reasons-heading {
@@ -233,13 +241,11 @@ footer {
 #my-addition a {
     color: #0077B6;
     font-weight: bold;
+    transition: all 0.2s ease;
 }
 
 #my-addition a:hover {
-    color: #0077B6;
-    font-weight: bold;
-    transition: .5s;
-    font-size: large;
+    color: #0096C7;
 }
 
 /* Personal Info */
