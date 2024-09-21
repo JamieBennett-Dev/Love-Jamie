@@ -1,4 +1,4 @@
-# Love Jamie Project
+# Love Jamie Project - (Old CV)
 
 ## A fully responsive portfolio for my new career in Software Engineering.
 
